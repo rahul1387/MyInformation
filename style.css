@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.card
+{
+    background-color:#040720;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-text
+{
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-left: 35%;
+    width: 550px;
+    height: 550px;
+    color: black;
+    text-align: center;
+    
+}
+.para
+{
+    padding-top:2% ;
+    font-size: 150%;
+    font-family:  sans-serif;
+}
+.image
+{
+    height: 100px;
+    width: 100px;
+    padding-top: 2%;
+}
+.github
+{
+    margin-top: 7%;
+    width:  40px;
+    height: 40px;
+}
+.rahul
+{
+    
+    text-align: center;
+}
+.btn
+{
+    margin-top: 5%;
+    padding: 2% 2% 2% 2%;
+    border-radius: 2%;
+    border-style: none;
+    cursor: pointer;
+
+}
+.btn:hover
+{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.age-no
+{
+    color: red;
+}
