@@ -11,6 +11,7 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 .card-text
 {
     flex-direction: column;
@@ -24,6 +25,7 @@
     text-align: center;
     
 }
+
 .para
 {
     padding-top:2% ;
@@ -64,3 +66,31 @@
 {
     color: red;
 }
+                    /* Media Query */
+@media (max-width:768px)
+{
+    .card-text{
+        margin-right: 35%;
+        align-items: center;
+    }
+}
+@media(max-width:414px)
+{
+    .card
+    {
+        background-color: lightslategray;
+    }
+    .card-text
+    {
+        margin-left: 20%;
+        background-color: lightslategray;
+        display: block;
+        border: none;
+        text-align: center;
+    }
+    .btn{
+        padding: 3% 3% 2% 3%;
+        border-radius: 2%;
+    }
+}
+
